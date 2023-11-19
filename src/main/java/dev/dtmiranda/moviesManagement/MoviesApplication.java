@@ -1,4 +1,4 @@
-package dev.dtmiranda.movies;
+package dev.dtmiranda.moviesManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
