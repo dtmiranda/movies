@@ -1,11 +1,12 @@
 package dev.dtmiranda.moviesManagement.movie;
 
-import dev.dtmiranda.moviesManagement.Reviews;
+import dev.dtmiranda.moviesManagement.Reviews.Reviews;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
@@ -23,6 +24,7 @@ public class Movie {
   private String Poster;
   private List<String> genres;
   private List <String> backdrops;
+  @DocumentReference// Embebed relatioship
   private List<Reviews> reviewIds;
 
 
