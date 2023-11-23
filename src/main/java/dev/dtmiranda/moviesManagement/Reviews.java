@@ -1,4 +1,4 @@
-package dev.dtmiranda.moviesManagement.Reviews;
+package dev.dtmiranda.moviesManagement;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
