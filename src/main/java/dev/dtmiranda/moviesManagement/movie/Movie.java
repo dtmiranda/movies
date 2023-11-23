@@ -1,6 +1,6 @@
 package dev.dtmiranda.moviesManagement.movie;
 
-import dev.dtmiranda.moviesManagement.Reviews;
+import dev.dtmiranda.moviesManagement.reviews.Reviews;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
