@@ -1,6 +1,6 @@
 package dev.dtmiranda.moviesManagement.movie;
 
-import dev.dtmiranda.moviesManagement.reviews.Reviews;
+import dev.dtmiranda.moviesManagement.reviews.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,7 +23,7 @@ public class Movie {
   private String Poster;
   private List<String> genres;
   private List <String> backdrops;
-  private List<Reviews> reviewIds;
+  private List<Review> reviewIds;
 
 
 }
